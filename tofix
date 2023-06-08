@@ -1,3 +1,9 @@
 \e[1;33mESLINT TO FIX\e[0m
 
 \e[1;34mSTYLELINT TO FIX\e[0m
+
+src/App.css
+ 47:1  ✖  Expected selector ".key:active" to come before selector ".row:last-child .key:nth-child(1)"   no-descending-specificity
+ 47:1  ✖  Expected selector ".key:active" to come before selector ".row:last-child .key:nth-child(2)"   no-descending-specificity
+ 47:1  ✖  Expected selector ".key:active" to come before selector ".row:last-child .key:nth-child(3)"   no-descending-specificity
+ 48:3  ✖  Invalid value for `transition`                                                                csstree/validator

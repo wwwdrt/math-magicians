@@ -35,6 +35,12 @@
   background: #f5913e;
 }
 
+.key:active {
+  transition: transform 0.8s ease;
+  transform: scale(1.1);
+  border-radius: 8px;
+}
+
 .row:last-child .key:nth-child(1) {
   width: 50%;
 }
@@ -44,8 +50,3 @@
   width: 25%;
 }
 
-.key:active {
-  transition: transform ease(0.8s);
-  transform: scale(1.1);
-  border-radius: 8px;
-}
