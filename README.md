@@ -29,7 +29,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -41,8 +40,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -124,38 +121,29 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
 
-```sh
   cd my-project
-  gem install
+```sh
+npx create-react-app .
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
 ```sh
-  rails server
+npm start
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+npm test
 ```
---->
 
 ### Deployment
 
@@ -175,7 +163,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Project collaborators.
 
 👤 **DRT**
 
@@ -236,22 +224,6 @@ I would like to express my sincere gratitude to the following individuals and co
 Furthermore, I would like to acknowledge the wider programming community for their continuous support and the invaluable knowledge they share. It is through their contributions that I have been able to shape and enhance my codebase, making it even more remarkable.
 
 Once again, thank you to everyone who has been a part of this amazing journey. Your support and inspiration have made all the difference.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
