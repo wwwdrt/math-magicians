@@ -88,34 +88,47 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need this dependencies:
 
-<!--
-Example command:
+```js
+    this.dependencies = [
+      'eslint@7.x',
+      'eslint-config-airbnb@18.x',
+      'eslint-plugin-import@2.x',
+      'eslint-plugin-jsx-a11y@6.x',
+      'eslint-plugin-react@7.x',
+      'eslint-plugin-react-hooks@4.x',
+      '@babel/eslint-parser@7.x',
+      '@babel/core@7.x',
+      '@babel/plugin-syntax-jsx@7.x',
+      '@babel/preset-react@7.x',
+      'stylelint@13.x',
+      'stylelint-scss@3.x',
+      'stylelint-config-standard@21.x',
+      'stylelint-csstree-validator@1.x',
+    ];
 
-```sh
- gem install rails
 ```
- -->
+
+Please install them using `npm`, for example:
+
+```js
+npm eslint@7.x
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:wwwdrt/math-magicians.git 
 ```
---->
 
 ### Install
 
