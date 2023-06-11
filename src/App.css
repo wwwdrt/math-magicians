@@ -1,13 +1,14 @@
 #root {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  gap: 2rem;
 }
 
 #calculator {
   width: 90%;
-  margin: auto;
   border: 1px solid gray;
 }
 
@@ -48,4 +49,8 @@
 .row:last-child .key:nth-child(2),
 .row:last-child .key:nth-child(3) {
   width: 25%;
+}
+
+#quote {
+  width: 80%;
 }
