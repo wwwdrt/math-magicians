@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; 
+ }
+
 #root {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
   gap: 2rem;
@@ -51,6 +58,29 @@
   width: 25%;
 }
 
-#quote {
-  width: 80%;
+#quotes {
+  text-align: start;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-top: 1rem;
+}
+
+#menu {
+  display: flex;
+  gap: 1rem;
+}
+
+#home {
+  width: 90%;
 }
