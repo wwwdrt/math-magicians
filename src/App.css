@@ -83,14 +83,14 @@
 }
 
 #menu li a {
-  color: #30A2FF;
+  color: #30a2ff;
 }
 
 #menu li:first-child:hover,
 #menu li:nth-child(3):hover,
 #menu li:last-child:hover {
   padding: 0 1rem 0 1rem;
-  background: #27374D;
+  background: #27374d;
   border-radius: 4px;
   font-weight: 700;
 }
