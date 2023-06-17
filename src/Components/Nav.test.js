@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Nav from './Nav';
 
 describe('Nav', () => {
-  test('renders Nav component', () => {
+  test('renders Nav component correctly', () => {
     const { container } = render(<Router><Nav /></Router>);
 
     const heading = container.querySelector('h1');
