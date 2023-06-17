@@ -11,7 +11,7 @@ describe('Nav', () => {
     expect(heading.textContent).toBe('Math Magicians');
 
     const navLinks = container.querySelectorAll('a');
-    expect([...navLinks].map(link => link.textContent)).toEqual([
+    expect([...navLinks].map((link) => link.textContent)).toEqual([
       'Home',
       'Calculator',
       'Quotes',

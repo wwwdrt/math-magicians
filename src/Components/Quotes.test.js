@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Quotes from './Quotes';
 import fetchMock from 'jest-fetch-mock';
+import Quotes from './Quotes';
 
 fetchMock.enableMocks();
 
@@ -13,9 +13,9 @@ describe('Quotes', () => {
   it('fetches quotes from the API', async () => {
     fetch.mockResponseOnce(JSON.stringify([
       {
-        quote: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        author: "Ayn Rand"
-      }
+        quote: 'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
+        author: 'Ayn Rand',
+      },
     ]));
 
     render(<Quotes />);
