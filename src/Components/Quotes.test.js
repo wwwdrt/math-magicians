@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, act } from '@testing-library/react';
 import fetchMock from 'jest-fetch-mock';
 import Quotes from './Quotes';
 
@@ -18,7 +18,9 @@ describe('Quotes', () => {
       },
     ]));
 
-    render(<Quotes />);
+    await act(async () => {
+      render(<Quotes />);
+    });
 
     expect(fetch).toHaveBeenCalledTimes(1);
     expect(fetch).toHaveBeenCalledWith('https://api.api-ninjas.com/v1/quotes?category=money', {
